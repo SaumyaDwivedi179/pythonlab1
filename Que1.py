@@ -1,9 +1,9 @@
 # 1(a) WAP in python to add elements of list.
 
-x=int(input("Enter the length of list: "))
+num=int(input("Enter the length of list: "))
 list=[]
 
-for i in range(x):
+for i in range(num):
     num=int(input("Enter a number:"))
     list.append(num)
 print(list)
